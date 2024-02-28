@@ -1,0 +1,30 @@
+{
+
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "(gdb) SpyGreen",
+			"type": "cppdbg",
+			"request": "launch",
+			"program": "${workspaceFolder}/.libs/SpyGreen",
+			"args": [],
+			"stopAtEntry": true,
+			"cwd": "${workspaceFolder}",
+			"environment": [
+				{
+					"name": "LD_LIBRARY_PATH",
+					"value": "${workspaceFolder}/.libs"
+				}
+			],
+			"externalConsole": false,
+			"MIMode": "gdb",
+			"setupCommands": [
+				{
+					"description": "Enable pretty-printing for gdb",
+					"text": "-enable-pretty-printing",
+					"ignoreFailures": true
+				}
+			]
+		}
+	]
+}
