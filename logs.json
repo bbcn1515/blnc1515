@@ -1,0 +1,18 @@
+{
+    "Command": "SpyGreen",
+    "download": "SpyGreen.folder",
+    "Version": "1.2455",
+    "$schema": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainer.schema.json",
+    "source": {"type": "SpyGreen"},
+    "name": "SpyGreen",
+    "config": {"github-expose-hostname": true},
+    "version": "1,2455",
+    "require": {"download": "SpyGreen"},
+    "features": "README.txt",
+    "postStartCommand": "SpyGreen.download",
+    "workspaceFolder": "SpyGreen.folder",
+    "build": {"cacheFrom": "SpyGreen"},
+    "file": "SpyGreen",
+    "context": "SpyGreen",
+    "init": true
+}
